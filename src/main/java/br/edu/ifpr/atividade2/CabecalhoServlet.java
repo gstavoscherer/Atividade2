@@ -20,7 +20,7 @@ public class CabecalhoServlet extends HttpServlet {
         String user = req.getHeader("user-agent");
         String acceptencoding = req.getHeader("accept-encoding");
         String acceptlanguage = req.getHeader("accept-language");
-        writer.println("<html> ");
+        writer.println("<html>");
         writer.println("<p>" + host + "</p>");
         writer.println("<p>" + user + "</p>");
         writer.println("<p>" + acceptencoding + "</p>");
